@@ -78,14 +78,14 @@ public class DbfWriter
 			writeBoolean(f, (Boolean)o);
 			break;
 		case Numeric:
-                        if (f.getNumberOfDecimalPlaces() == 0 && o instanceof java.lang.Integer)
-                        {
-                           writeString(f, String.format(new String("%" + new Integer(f.getLength()).toString() + "d"), ((Integer)o).intValue()));
+            if (f.getNumberOfDecimalPlaces() == 0 && o instanceof java.lang.Integer)
+            {
+                writeString(f, String.format(new String("%" + new Integer(f.getLength()).toString() + "d"), ((Integer)o).intValue()));
 			}		
-                        else
+            else
 			{
-			  writeBigDecimal(f, (BigDecimal)o);
-                        }
+			    writeBigDecimal(f, (BigDecimal)o);
+            }
 			break;
 		case Float:
 			if (o instanceof Double)
