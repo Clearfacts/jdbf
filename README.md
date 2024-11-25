@@ -1,6 +1,12 @@
 jdbf
 ====
 
+## Publish to ClearFacts GenericConnector folder
+
+```
+mvn deploy -DCLEARFACTS_REPO_PATH=/path/to/connector/repo
+```
+
 [![Join the chat at https://gitter.im/iryndin/jdbf](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/iryndin/jdbf?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [![JDBF builds at https://travis-ci.org/iryndin/jdbf](https://api.travis-ci.org/iryndin/jdbf.svg?branch=master)](https://travis-ci.org/iryndin/jdbf)

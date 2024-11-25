@@ -4,7 +4,7 @@
 
     <groupId>net.iryndin</groupId>
     <artifactId>jdbf</artifactId>
-    <version>2.1.0</version>
+    <version>2.1.0cf</version>
     <packaging>jar</packaging>
 
     <organization>
@@ -27,21 +27,9 @@
     
     <distributionManagement>
         <repository>
-            <id>sonatype-release</id>
-            <layout>default</layout>
-            <name>sonatype releases</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+            <id>absolute directory</id>
+            <url>file://${CLEARFACTS_REPO_PATH}</url>
         </repository>
-        <snapshotRepository>
-            <id>sonatype-snapshot</id>
-            <layout>default</layout>
-            <name>sonatype releases</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <site>
-            <id>website</id>
-            <url>http://github.com/iryndin/jdbf</url>
-        </site>
     </distributionManagement>
     
     <inceptionYear>2012</inceptionYear>
