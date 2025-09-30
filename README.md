@@ -99,3 +99,7 @@ See [TestMemo.java](src/test/java/net/iryndin/jdbf/TestMemo.java)
         }
     }
 ```
+
+## Technical debt links
+
+[Barometer IT](https://wolterskluwer.barometerit.com/b/system/041800002496)
