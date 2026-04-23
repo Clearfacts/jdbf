@@ -89,6 +89,7 @@
         <javadoc.extra.settings />
         <maven.compiler.version>3.9.0</maven.compiler.version>
         <junit.version>4.13.2</junit.version>
+		<sonar.sources>src/main/java/net/iryndin/jdbf/util/DbfMetadataUtils.java,src/main/java/net/iryndin/jdbf/writer/DbfWriter.java</sonar.sources>
     </properties>
 
     <build>
@@ -129,7 +130,7 @@
                     <artifactId>maven-deploy-plugin</artifactId>
                     <version>2.8.2</version>
                 </plugin>
-                 <plugin>
+                <!-- <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-release-plugin</artifactId>
                     <version>2.5.3</version>
@@ -140,7 +141,12 @@
                         <releaseProfiles>release</releaseProfiles>
                         <tagNameFormat>jdbf-@{project.version}</tagNameFormat>
                     </configuration>
-                </plugin>
+                </plugin> -->
+				<plugin>
+					<groupId>org.sonarsource.scanner.maven</groupId>
+					<artifactId>sonar-maven-plugin</artifactId>
+					<version>5.6.0.6792</version>
+				</plugin>
             </plugins>
         </pluginManagement>
         <plugins>
