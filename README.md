@@ -103,5 +103,5 @@ See [TestMemo.java](src/test/java/net/iryndin/jdbf/TestMemo.java)
 ## Technical debt links
 - [Barometer IT](https://wolterskluwer.barometerit.com/b/system/041800002496)
 - [SonarQube Project](https://sonarqube.cloud-dev.wolterskluwer.eu/dashboard?id=clearfacts%3Ajdbf)
-- [Black Duck Project](https://wolterskluwer.app.blackduck.com/api/projects?q=name:jdbf)
+- [Black Duck Project](https://wolterskluwer.app.blackduck.com/api/projects/82ad2558-5d57-44bf-9fbc-372e3d8d6a19)
 - [Checkmarx Project](https://test4tools.cchaxcess.com/CxWebClient/ProjectStateSummary.aspx?projectid=18815)
