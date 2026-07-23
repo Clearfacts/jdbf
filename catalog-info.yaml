@@ -1,23 +1,28 @@
+---
 # Wolters Kluwer Backstage compliant catalog info
 # See https://backstage.io/docs/features/software-catalog/descriptor-format
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: jdbf
-  description: "Java utility to read/write DBF files - voor ClearFacts Bob50 Connector"
+  description: "Java utility to read/write DBF files - voor ClearFacts Bob50 Co\
+    nnector"
   annotations:
-    wolterskluwer.io/bit-id: "041800002496"
+    wolterskluwer.io/bit-id: '041800002496'
 spec:
   type: library
   lifecycle: production
   owner: Glenn.Van-Den-Broeck@wolterskluwer.com
 links:
-  - url: https://sonarqube.cloud-dev.wolterskluwer.eu/dashboard?id=clearfacts%3Ajdbf
+  - url: "https://sonarqube.cloud-dev.wolterskluwer.eu/dashboard?id=clearfacts%\
+    3Ajdbf"
     type: SAST
     title: SonarQube
-  - url: https://wolterskluwer.app.blackduck.com/api/projects/82ad2558-5d57-44bf-9fbc-372e3d8d6a19
+  - url: "https://wolterskluwer.app.blackduck.com/api/projects/82ad2558-5d57-44\
+    bf-9fbc-372e3d8d6a19"
     type: SCA
     title: Black Duck
-  - url: https://test4tools.cchaxcess.com/CxWebClient/ProjectStateSummary.aspx?projectid=17866
+  - url: "https://test4tools.cchaxcess.com/CxWebClient/ProjectStateSummary.aspx\
+    ?projectid=17866"
     type: SAST
     title: Checkmarx
