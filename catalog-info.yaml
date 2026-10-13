@@ -8,6 +8,7 @@ metadata:
   description: "Java utility to read/write DBF files - voor ClearFacts Bob50 Connector"
   annotations:
     wolterskluwer.io/bit-id: '041800002496'
+    wolterskluwer.io/zero-sca-dependencies: "true"
 spec:
   type: library
   lifecycle: production
